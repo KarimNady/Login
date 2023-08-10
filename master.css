@@ -1,0 +1,81 @@
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 115px;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background: url(images\ \(5\).jpeg);
+    background-size: cover;
+}
+form{
+    position: absolute;
+    width: 350px;
+    height: 420px;
+    background: rgba(0,0,0,.5);
+    top: 20%;
+    left: 35%;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+h2{
+    color: #fff;
+    text-align: center;
+    margin-top: 90px;
+}
+input[type="text"],[type="password"]{
+    position: absolute;
+    outline: none;
+    border: none;
+    width: 250px;
+    height: 35px;
+    border-bottom: 2px solid #0094ff;
+    background: none;
+    padding: 5px;
+    color: #fff;
+}
+input[type="text"]{
+    top: 140px;
+    left: 50px;
+}
+input[type="password"]{
+    top: 210px;
+    left: 50px;
+}
+::placeholder{
+    color: #fff;
+}
+input[value="Login"]{
+    position: absolute;
+    width: 130px;
+    height: 35px;
+    top: 305px;
+    left: 110px;
+    background: #0077ff;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 15px;
+    font-family: sans-serif;
+    font-size: 20px;
+    transition: .2s;
+}
+input[value="Login"]:hover{
+    background: #fff;
+    color: #0077ff;
+}
+p{
+    position: absolute;
+    top: 360px;
+    left: 50px;
+    color: #fff;
+    cursor: pointer;
+}
+p:hover{
+    color: #72c9ff;
+}
